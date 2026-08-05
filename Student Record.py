@@ -1,9 +1,9 @@
 # Write a Python program to store the Name,
 # Roll Number, and Marks of five students using dictionaries and display the record
 list1=[]
-
+num = int(input("Enter your total class student number: "))
 i = 0
-while i < 2:
+while i < num:
     name = input("Enter Name: ")
     roll = input("Enter Roll: ")
     mark = input("Enter total mark: ")
