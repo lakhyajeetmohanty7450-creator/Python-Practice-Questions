@@ -16,8 +16,8 @@ while i < num:
 marks = list1[0]
 
 for a in list1:
-    if a["Mark"] > marks:
-        marks = i
+    if a["Mark"] > marks["Mark"]:
+        marks = a
 
 print("\nStudent with Highest Marks")
 print(marks["Name"])
