@@ -9,5 +9,4 @@ def remove_duplicate(lst):
             result.append(i)
     return result
 
-print(remove_duplicate(data))        
-
+print(remove_duplicate(data))
