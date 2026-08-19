@@ -5,6 +5,7 @@ import random
 lst = ["Rock","Paper","Scissor"]
 computer = random.choice(lst)
 def Rock_Paper_Scissors():
+    computer = random.choice(lst)
     choose = input("Your chosse: ")
 
     if choose == "Rock" and  computer == "Paper":
