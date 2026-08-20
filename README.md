@@ -88,7 +88,7 @@ My goal is not just to solve problems—but to become a better programmer every 
 🚀 Mini Projects
       │
       ▼
-📊 Data Science Ready
+
 ```
 
 ---
