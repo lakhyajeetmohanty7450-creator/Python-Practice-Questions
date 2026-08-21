@@ -52,4 +52,7 @@ while True:
         select()
     elif p == 9:
         break
+    else:
+        print("product not found")
 bill()
+
