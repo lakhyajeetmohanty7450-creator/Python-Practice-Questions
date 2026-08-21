@@ -1,6 +1,5 @@
 # # # Write a Python program to create a Shopping Cart and Billing System.
 
-
 products = {
     "Apple": 50,
     "Banana": 30,
@@ -12,20 +11,14 @@ products = {
     "Biscuits": 25
 }
 
-
 shopping_cart={}
 quantity = {}
 total_ ={}
-
-
-
 
 def product():
     for number ,(keys,value) in enumerate(products.items(),start=1):
         print(f" {number} . {keys}   {value}")
     print("9.Chekout")
-
-
 
 def select():
 
@@ -38,7 +31,6 @@ def select():
     else:
         print("product not found")
 
-
 def bill():
     total_bill = sum(total_.values())
     print("========================BILL =====================")
@@ -47,11 +39,7 @@ def bill():
     print("-"*50)
     print(f"Total Bill {total_bill }")
 
-
 product()
-
-
-
 
 while True:     
     num ={}
@@ -65,13 +53,3 @@ while True:
     elif p == 9:
         break
 bill()
-
-
-
-
-
- 
-
-
-
-  
