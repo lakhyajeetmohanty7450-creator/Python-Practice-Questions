@@ -6,7 +6,7 @@ email = input("Enter your email: ")
 
 
 
-if "@"in email and "." in email:
+if email.count("@") == 1 in email and "." in email:
     print("Valid")
 else:
     print("Not Valid")
